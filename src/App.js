@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { FiSettings } from "react-icons/fi";
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 
-import { Sidebar } from "./components";
+import { Sidebar, Navbar } from "./components";
 
 import { useStateContext } from "./contexts/ContextProvider";
 import "./App.css";
@@ -42,7 +42,7 @@ const App = () => {
             }`}
           >
             <div className="fixed md:static bg-main-bg dark:bg-main-dark-bg navbar w-full">
-              Navbar
+              <Navbar />
             </div>
           </div>
           <div>
