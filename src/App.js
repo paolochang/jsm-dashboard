@@ -6,6 +6,7 @@ import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 import { Sidebar, Navbar } from "./components";
 import {
   Calendar,
+  ColorPicker,
   Customers,
   Ecommerce,
   Editor,
@@ -68,7 +69,7 @@ const App = () => {
                 <Route path="/calendar" element={<Calendar />} />
                 <Route path="/kanban" element={<Kanban />} />
                 <Route path="/editor" element={<Editor />} />
-                <Route path="/color-picker" element="ColorPicker" />
+                <Route path="/color-picker" element={<ColorPicker />} />
 
                 {/** Charts */}
                 <Route path="/line" element="Line" />
