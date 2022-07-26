@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { FiSettings } from "react-icons/fi";
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 
-import { Sidebar, Navbar, ThemeSettings } from "./components";
+import { Sidebar, Navbar, ThemeSettings, Footer } from "./components";
 import {
   Area,
   Bar,
@@ -99,6 +99,7 @@ const App = () => {
                 <Route path="/stacked" element={<Stacked />} />
               </Routes>
             </div>
+            <Footer />
           </div>
         </div>
       </BrowserRouter>
