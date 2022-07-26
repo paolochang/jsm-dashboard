@@ -19,6 +19,7 @@ import {
   Line,
   Orders,
   Pie,
+  Pyramid,
 } from "./pages";
 
 import { useStateContext } from "./contexts/ContextProvider";
@@ -93,7 +94,7 @@ const App = () => {
                 <Route path="/pie" element={<Pie />} />
                 <Route path="/financial" element={<Financial />} />
                 <Route path="/color-mapping" element={<ColorMapping />} />
-                <Route path="/pyramid" element="Pyramid" />
+                <Route path="/pyramid" element={<Pyramid />} />
                 <Route path="/stacked" element="Stacked" />
               </Routes>
             </div>
