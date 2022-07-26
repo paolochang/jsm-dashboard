@@ -170,7 +170,10 @@ export const areaPrimaryXAxis = {
   majorGridLines: { width: 0 },
   intervalType: "Years",
   edgeLabelPlacement: "Shift",
-  labelStyle: { color: "gray" },
+  labelStyle: {
+    fontFamily: "Open Sans",
+    color: "gray",
+  },
 };
 
 export const areaPrimaryYAxis = {
@@ -180,12 +183,18 @@ export const areaPrimaryYAxis = {
   interval: 1,
   majorTickLines: { width: 0 },
   minorTickLines: { width: 0 },
-  labelStyle: { color: "gray" },
+  labelStyle: {
+    fontFamily: "Open Sans",
+    color: "gray",
+  },
 };
 export const barPrimaryXAxis = {
   valueType: "Category",
   interval: 1,
   majorGridLines: { width: 0 },
+  labelStyle: {
+    fontFamily: "Open Sans",
+  },
 };
 export const barPrimaryYAxis = {
   majorGridLines: { width: 0 },
@@ -382,15 +391,22 @@ export const FinancialPrimaryXAxis = {
   maximum: new Date("2017, 9, 30"),
   crosshairTooltip: { enable: true },
   majorGridLines: { width: 0 },
+  labelStyle: {
+    fontFamily: "Open Sans",
+  },
 };
 
 export const FinancialPrimaryYAxis = {
   title: "Price",
+  titleStyle: { fontFamily: "Open Sans" },
   minimum: 100,
   maximum: 180,
   interval: 20,
   lineStyle: { width: 0 },
   majorTickLines: { width: 0 },
+  labelStyle: {
+    fontFamily: "Open Sans",
+  },
 };
 
 export const LinePrimaryXAxis = {
@@ -400,6 +416,9 @@ export const LinePrimaryXAxis = {
   edgeLabelPlacement: "Shift",
   majorGridLines: { width: 0 },
   background: "white",
+  labelStyle: {
+    fontFamily: "Open Sans",
+  },
 };
 
 export const LinePrimaryYAxis = {
@@ -411,6 +430,9 @@ export const LinePrimaryYAxis = {
   lineStyle: { width: 0 },
   majorTickLines: { width: 0 },
   minorTickLines: { width: 0 },
+  labelStyle: {
+    fontFamily: "Open Sans",
+  },
 };
 
 export const customersGrid = [
