@@ -17,7 +17,7 @@
 
 ## Screenshots
 
-|        Originial        |        Updated         |
+|        Original         |        Updated         |
 | :---------------------: | :--------------------: |
 | **original screenshot** | **updated screenshot** |
 
