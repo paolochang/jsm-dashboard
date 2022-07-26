@@ -372,17 +372,25 @@ export const rangeColorMapping = [
 ];
 
 export const ColorMappingPrimaryXAxis = {
+  titleStyle: { fontFamily: "Open Sans" },
   valueType: "Category",
   majorGridLines: { width: 0 },
   title: "Months",
+  labelStyle: {
+    fontFamily: "Open Sans",
+  },
 };
 
 export const ColorMappingPrimaryYAxis = {
+  titleStyle: { fontFamily: "Open Sans" },
   lineStyle: { width: 0 },
   majorTickLines: { width: 0 },
   minorTickLines: { width: 0 },
   labelFormat: "{value}°C",
   title: "Temperature",
+  labelStyle: {
+    fontFamily: "Open Sans",
+  },
 };
 
 export const FinancialPrimaryXAxis = {
